@@ -1,0 +1,10 @@
+1-You should successfully login with a correct username
+and password but they should come from configReader
+2-Click group order button and click next button
+3-provide "i love Selenium and Cucumber" for Invitees list box
+4-Provide 2 gmail address with comma between them into Invite List box
+5-Choose my location part "My House" and validate Address contains
+"3137 Laguna Street"
+6-click create group order button
+7-validate the header is "VIEW GROUP ORDER" and message
+"your group order is now pending"

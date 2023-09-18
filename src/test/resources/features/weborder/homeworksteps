@@ -1,0 +1,14 @@
+#https://demo.weborder.net
+  #This should be in Hook class and come from
+  #configuration.properties file
+  #username=guest1@microworks.com
+  #password=Guest1!
+  #I want you have 4 scenarios
+  #3 scenario negative
+   #Correct username-Wrong Password
+  #Wrong username-Correct Password
+  #Both are empty
+  #Sign in Failed Totally 3 parameters(username-password,message)
+  #Color is pink
+  #1 happy path
+  #validate the TITLE
