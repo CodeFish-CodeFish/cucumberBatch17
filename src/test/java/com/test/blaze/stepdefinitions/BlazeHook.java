@@ -1,4 +1,4 @@
-package com.test.weborder.stepdefinitions;
+package com.test.blaze.stepdefinitions;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -8,17 +8,18 @@ import utils.BrowserUtils;
 import utils.ConfigReader;
 import utils.DriverHelper;
 
-public class WebOrderHook {
-    WebDriver driver = DriverHelper.getDriver();
+public class BlazeHook {
 
+//    WebDriver driver= DriverHelper.getDriver();
+//
 //    @Before
-//    public void setup() {
-//    driver.navigate().to(ConfigReader.readProperty("weborderurl"));
+//    public void setup(){
+//        driver.get(ConfigReader.readProperty("blazeurl"));
 //    }
 //
 //    @After
 //    public void tearDown(Scenario scenario){
 //        BrowserUtils.getScreenShotWithCucumber(driver,scenario);
-//       driver.quit();
+//        driver.quit();
 //    }
 }
