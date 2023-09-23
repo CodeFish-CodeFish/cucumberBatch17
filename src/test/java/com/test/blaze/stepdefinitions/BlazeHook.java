@@ -10,16 +10,16 @@ import utils.DriverHelper;
 
 public class BlazeHook {
 
-//    WebDriver driver= DriverHelper.getDriver();
-//
-//    @Before
-//    public void setup(){
-//        driver.get(ConfigReader.readProperty("blazeurl"));
-//    }
-//
-//    @After
-//    public void tearDown(Scenario scenario){
-//        BrowserUtils.getScreenShotWithCucumber(driver,scenario);
-//        driver.quit();
-//    }
+    WebDriver driver= DriverHelper.getDriver();
+
+    @Before
+    public void setup(){
+        driver.get(ConfigReader.readProperty("blazeurl"));
+    }
+
+    @After
+    public void tearDown(Scenario scenario){
+        BrowserUtils.getScreenShotWithCucumber(driver,scenario);
+        driver.quit();
+    }
 }

@@ -10,16 +10,16 @@ import utils.DriverHelper;
 
 public class SmartBearHook {
 
-    WebDriver driver= DriverHelper.getDriver();
-
-    @Before
-    public void setup(){
-        driver.get(ConfigReader.readProperty("smartbearurl"));
-    }
-
-    @After
-    public void tearDown(Scenario scenario){
-        BrowserUtils.getScreenShotWithCucumber(driver,scenario);
-     //  driver.quit();
-    }
+//    WebDriver driver= DriverHelper.getDriver();
+//
+//    @Before
+//    public void setup(){
+//        driver.get(ConfigReader.readProperty("smartbearurl"));
+//    }
+//
+//    @After
+//    public void tearDown(Scenario scenario){
+//        BrowserUtils.getScreenShotWithCucumber(driver,scenario);
+//     //  driver.quit();
+//    }
 }
